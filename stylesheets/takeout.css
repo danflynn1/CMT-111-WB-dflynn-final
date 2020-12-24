@@ -1,0 +1,31 @@
+@import url("./main.css");
+@import url("./menus.css");
+
+header {
+    background-image: none;
+    height: auto;
+}
+h1{
+    font-size: 5em;
+}
+
+iframe {
+    display: block;
+    width: 80%;
+    height: 500px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+button {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #fcba03;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 0 30px 100px;
+    background-color: black;
+    color: #fcba03;
+}
+button:hover {
+    color: black;
+    background-color: #fcba03;
+}

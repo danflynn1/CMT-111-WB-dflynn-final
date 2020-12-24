@@ -1,0 +1,39 @@
+@import url("main.css");
+h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 60px 35px 0 35px;
+}
+form {
+    color: white;
+    padding: 0 35px 50px 50px;
+}
+ul {
+    list-style: none;
+}
+section {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-bottom: 20px;
+}
+input[name="size"] {
+    margin-left: 50px;
+}
+.qty,.qty_label {
+    float: right;
+}
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #fcba03;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fcba03;
+}
+.button:hover {
+    color: black;
+    background-color: #fcba03;
+}

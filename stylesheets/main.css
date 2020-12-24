@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+    color: #fcba03;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ----- Nav Bar  ----- */
+nav {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+nav li, nav a{
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+nav li {
+    box-sizing: border-box;
+    padding-top: 15px;
+    text-align: center;
+    border: 1px solid #fcba03;
+}
+a {
+    text-decoration: none;
+}
+a > li {
+    background-color: #fcba03;
+    color: black;
+    border: 1px solid black;
+}
+a > li:hover {
+    background-color: black;
+    color: #fcba03;
+    border: 1px solid #fcba03;
+}
+  
+a h3 {
+    color: #FCBA03;
+    transition: font-size .1s linear;
+    
+}
+a h3:hover {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* ----- Banner ----- */
+header {
+    margin-top: 50px;
+    height: 350px;
+    text-align: center;
+    background-image: url("../images/banner_bkg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h1 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 10em;
+    font-family: "Arizonia", "Brush Script MT", cursive;
+    text-shadow: 1px 1px 0 #000;
+}
+h2 {
+    color: black;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+/* ----- Section ----- */
+h3 {
+    text-align: center;
+}
+section {
+    margin: 50px 100px;
+}
+img {
+    padding: 20px;
+    width: 500px;
+    float: right;
+}
+p {
+    color: white;
+    text-indent: 2.5em;
+}
+
+address {
+    font-weight: bold;
+    margin: 0 0 50px 50px;
+}
+/* ----- Footer ----- */
+footer p {
+    text-indent: 0;
+    color: black;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: black;
+    background-color: #fcba03;
+}

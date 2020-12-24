@@ -1,0 +1,9 @@
+@import url("./main.css");
+@import url("menus.css");
+header {
+    background-image: url("../images/drinks_bkg.jpeg");
+    background-position: 0 -180px;
+}
+section {
+    background-image: url("../images/drink_transpar.png");
+}

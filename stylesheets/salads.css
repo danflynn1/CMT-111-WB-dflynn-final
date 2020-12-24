@@ -1,0 +1,10 @@
+@import url("./main.css");
+@import url("menus.css");
+header {
+    background-image: url("../images/salad_bkg.jpeg");
+    background-size: cover;
+    background-position: 0 -100px;;
+}
+section {
+    background-image: url("../images/salad_transpar.png");
+}
